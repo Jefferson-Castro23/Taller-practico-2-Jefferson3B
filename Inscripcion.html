@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="inscripcion.css">
+	<title>Inscripcion en linea</title>
+</head>
+<body>
+     <main>
+<header>
+<div id"universidad"></div>
+
+<div id="barra_menu">
+<ul id="menu">
+<li class="current"><a href="#">Inicio</a></li>
+<li><a href="#">El club</a></li>
+<li><a href="#">Actividades</a></li>
+<li><a href="#">Torneo</a></li>
+<li><a href="#">Inscripcion</a></li>
+
+</ul>
+</div>
+
+</header>
+
+     <h1>-Inscribite-</h1>
+
+     <h3>Bienvenid@s en este apartado podras inscrbirte a nuestra pagina web de karate. Solo necesitamos que registres tus datos para formar parte. !Que esperas!</h3>
+
+     
+     <fieldset id="datos">
+     	<legend>Datos personales</legend>
+     	<table border="4">
+     		<tr><td>Nombres:</td><td><input type="nombre"/></td></tr>
+     		<tr><td>Apellidos:</td><td><input type="apellido"/></td></tr>
+     		<tr><td>Fecha de nacimiento:</td><td><input type="date" name="f_nacimiento"/></td></tr>
+     		<tr><td>Edad:</td><td><input type="number" name="edad" min="5" max="50"/></td></tr>
+     		<tr><td>Sexo:</td><td><p><input type="radio" name="hombre"/>Hombre</p><p><input type="radio" name="mujer"/>Mujer</p></td></tr>
+     		<tr><td>Correo:</td><td><input type="email" id="correo" value="" pattern="[a-z0-9._%+-]+@[a-z0-
+9.-]+\.[a-z]{2,3}$" title="Formato de correo: NombreCorreo@dominio"
+class="control" placeholder=" NombreCorreo@dominio" required/>
+<br>
+     		<tr><td>Departamento:</td>
+     			<td>
+     				<input type="text" list="nacionalidad"/>
+     				<datalist id="nacionalidad">
+     					<option value="El Salvador">Ahuachapan</option>
+     					<option value="El Salvador">Cabañas</option>
+     					<option value="El Salvador">Chalatenango</option>
+     					<option value="El Salvador">Cuscatlan</option>
+     					<option value="El Salvador">La libertad</option>
+     					<option value="El Salvador">Morazan</option>
+     					<option value="El Salvador">La Paz</option>
+     					<option value="El Salvador">Santa Ana</option>
+     					<option value="El Salvador">San Miguel</option>
+     					<option value="El Salvador">San Salvador</option>
+     					<option value="El Salvador">San Vicente</option>
+     					<option value="El Salvador">Sonsonate</option>
+     					<option value="El Salvador">La Union</option>
+     					<option value="El Salvador">Usulutan</option>
+     				</datalist>
+
+   <tr><td>Direcci&oacute;n:</td><td><textarea rows="5" cols="30"></textarea></td></tr>
+   </table>  
+   </fieldset>		
+
+</form>
+</main>
+
+
+
+</body>
+</html>
